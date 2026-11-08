@@ -18,4 +18,4 @@ jobs:
       id-token: write
     uses: yuyuyuyuyu-dev/repo-config/.github/workflows/deploy-to-github-pages.yml@main
     with:
-      app-module: composeApp
+      app-module: webApp
