@@ -26,6 +26,10 @@ detekt {
     config.setFrom(rootProject.files("config/detekt/detekt.yml"))
 }
 
+compose.resources {
+    generateResClass = always
+}
+
 kotlin {
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
@@ -33,7 +37,7 @@ kotlin {
         binaries.executable()
     }
     sourceSets {
-        commonMain.dependencies {
+        webMain.dependencies {
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
@@ -43,7 +47,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
         }
-        commonTest.dependencies {
+        webTest.dependencies {
             implementation(libs.kotlin.test)
         }
     }

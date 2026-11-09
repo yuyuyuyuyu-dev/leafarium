@@ -4,4 +4,4 @@ naming:
 
 style:
   MagicNumber:
-    excludes: ["**/commonTest/**", "**/webTest/**", "**/wasmJsTest/**"]
+    excludes: ["**/webTest/**"]
