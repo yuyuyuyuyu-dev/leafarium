@@ -5,3 +5,5 @@ naming:
 style:
   MagicNumber:
     excludes: ["**/webTest/**"]
+  MaxLineLength:
+    maxLineLength: 140
