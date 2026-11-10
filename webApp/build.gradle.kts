@@ -34,7 +34,7 @@ kotlin {
     }
 
     sourceSets {
-        webMain.dependencies {
+        wasmJsMain.dependencies {
             implementation(project(":shared"))
 
             implementation(libs.compose.ui)

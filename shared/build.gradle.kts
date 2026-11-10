@@ -37,7 +37,7 @@ kotlin {
         binaries.executable()
     }
     sourceSets {
-        webMain.dependencies {
+        wasmJsMain.dependencies {
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
