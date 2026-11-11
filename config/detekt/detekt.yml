@@ -1,0 +1,9 @@
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ["Composable"]
+
+style:
+  MagicNumber:
+    excludes: ["**/webTest/**"]
+  MaxLineLength:
+    maxLineLength: 140

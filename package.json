@@ -1,0 +1,10 @@
+{
+	"name": "leafarium",
+	"private": true,
+	"scripts": {
+		"biome": "biome"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.6.6"
+	}
+}
