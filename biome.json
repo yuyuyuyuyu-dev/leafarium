@@ -4,12 +4,5 @@
 		"enabled": true,
 		"clientKind": "git",
 		"useIgnoreFile": true
-	},
-	"files": {
-		"includes": [
-			"**",
-			"!**/composeResources/drawable/leaf_icon.svg",
-			"!**/resources/favicon.svg"
-		]
 	}
 }

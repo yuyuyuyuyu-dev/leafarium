@@ -19,6 +19,7 @@ fun LeafariumTheme(content: @Composable () -> Unit) {
     )
 }
 
+@Suppress("MagicNumber")
 object LeafariumColors {
     val Ground = Color(0xFFF3F1E8)
     val Surface = Color(0xFFFBFAF5)
@@ -36,6 +37,7 @@ object LeafariumColors {
     val Scrim = Color(0x731C2620)
 }
 
+@Suppress("MagicNumber")
 enum class AvatarTone(
     val background: Color,
     val content: Color,

@@ -5,7 +5,5 @@ naming:
 style:
   MagicNumber:
     excludes: ["**/webTest/**"]
-    ignorePropertyDeclaration: true
-    ignoreEnums: true
   MaxLineLength:
     maxLineLength: 140
