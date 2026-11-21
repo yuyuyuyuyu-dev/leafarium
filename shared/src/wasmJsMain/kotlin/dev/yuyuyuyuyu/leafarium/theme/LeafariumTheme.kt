@@ -40,9 +40,9 @@ enum class AvatarTone(
     val background: Color,
     val content: Color,
 ) {
-    Moss(Color(0xFFCFE3C8), Color(0xFF1F5A31)),
-    Bark(Color(0xFFE8DCC4), Color(0xFF6B4E1F)),
-    Sky(Color(0xFFD5E0E8), Color(0xFF2D4E66)),
+    Moss(background = Color(0xFFCFE3C8), content = Color(0xFF1F5A31)),
+    Bark(background = Color(0xFFE8DCC4), content = Color(0xFF6B4E1F)),
+    Sky(background = Color(0xFFD5E0E8), content = Color(0xFF2D4E66)),
 }
 
 private val leafariumColorScheme =
