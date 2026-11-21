@@ -47,7 +47,14 @@ object SampleForest {
             name = "Mina Aoki",
             initials = "MA",
             tone = AvatarTone.Bark,
-            bio = "Gardener on weekends, designer on weekdays. Writing a **garden journal** one Leaf at a time.",
+            bio =
+                """
+                Gardener on weekends, designer on weekdays.
+
+                - Writing a **garden journal** one Leaf at a time
+                - Growing basil, tomatoes and *far too much* mint
+                - Swapping seeds on the [community board](https://example.com/seeds)
+                """.trimIndent(),
             plantedIn = "March 2026",
             leafCount = 128,
             followingCount = 42,
