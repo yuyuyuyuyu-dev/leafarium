@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><title>Leafarium</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F1E8"></stop>
+      <stop offset="1" stop-color="#E6E3D4"></stop>
+    </linearGradient>
+    <linearGradient id="leaf" gradientUnits="userSpaceOnUse" x1="0" y1="-360" x2="0" y2="360" gradientTransform="rotate(130)">
+      <stop offset="0" stop-color="#7BC47F"></stop>
+      <stop offset="1" stop-color="#2F8A4C"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"></rect>
+  <g transform="translate(512 512) rotate(-130)">
+    <path d="M0 330 Q-6 380 18 420" fill="none" stroke="#2F7A45" stroke-width="22" stroke-linecap="round"></path>
+    <path d="M0 -330 C190 -200 220 130 0 330 C-220 130 -190 -200 0 -330 Z" fill="url(#leaf)"></path>
+    <g fill="none" stroke="#E9F5E4" stroke-linecap="round" opacity="0.85">
+      <path d="M0 -290 Q-8 0 0 320" stroke-width="14"></path>
+      <g stroke-width="9">
+        <path d="M-3 -150 Q-60 -170 -105 -215"></path>
+        <path d="M-3 -150 Q54 -170 99 -215"></path>
+        <path d="M-5 -40 Q-80 -60 -140 -110"></path>
+        <path d="M-5 -40 Q74 -60 134 -110"></path>
+        <path d="M-4 80 Q-80 60 -135 10"></path>
+        <path d="M-4 80 Q74 60 129 10"></path>
+        <path d="M-2 190 Q-55 175 -95 135"></path>
+        <path d="M-2 190 Q50 175 90 135"></path>
+      </g>
+    </g>
+  </g>
+</svg>
